@@ -1180,3 +1180,40 @@ blockquote {
   background-color: #2980b9;
 }
 
+#searchbar {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.animals {
+  font-size: 1.2em;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  animation: fadeIn 0.5s ease-in-out;
+  color: #ecf3f2;
+}
+
+.animals:last-child {
+  border-bottom: none;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
