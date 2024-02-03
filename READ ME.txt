@@ -1,0 +1,25 @@
+Languages Used: 
+> Html, CSS , JS
+
+How to run ?
+>extract 'Cronoz.zip'
+>Open the Folder 'Cronoz'
+>Run the File 'index.html' with any of your prefered web browser
+>Now You can view the website made 
+
+Team Details:
+
+>Team Leader : 
+  Ishan Srivastava
+  ishan.srvt7@gmail.com
+  9971815451
+
+>Team Members:
+  Ansh Malik
+  anshmalik1508@gmail.com
+  9643111444
+  
+  Aditya Dang
+  adidang29@gmail.com
+  9336957247
+	
