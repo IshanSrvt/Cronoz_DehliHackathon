@@ -1217,3 +1217,24 @@ blockquote {
       transform: translateY(0);
   }
 }
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(203, 237, 242);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(224, 224, 224);
+  background-color: transparent;
+  text-decoration: underline;
+}
