@@ -1152,4 +1152,30 @@ blockquote {
     font-size: 20px;
   }
 }
+.search-container {
+  display: flex;
+  border-radius: 20px; /* Adjust the value to change the corner radius */
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-bar {
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px; /* Match the border radius of the container */
+  width: 200px;
+}
+
+#search-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 0 20px 20px 0; /* Match the border radius of the container */
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #2980b9;
+}
 

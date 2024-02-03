@@ -56,21 +56,29 @@ https://templatemo.com/tm-590-topic-listing
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">Details</a>
+                                <a class="nav-link click-scroll" href="#section_2">Goverment Scheme</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="#section_3">Eligibility</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                                <a class="nav-link click-scroll" href="#section_4">Benefits</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Medical support</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_6">FAQs</a>
                             </li>
     
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                <a class="nav-link click-scroll" href="#section_7">Contact</a>
                             </li>
-                            <li class="nav-item dropdown">
+                           <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">pages</a>
 
                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
@@ -78,7 +86,7 @@ https://templatemo.com/tm-590-topic-listing
 
                                     <li><a class="dropdown-item" href="contact.html">Pre-order</a></li>
                                 </ul>
-                            </li>
+                            </li>-->
 
                            
                         </ul>
@@ -96,9 +104,29 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="row">
 
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
-
-                            <h6 class="text-center">Source of light in the dark.</h6>
+                            <div class="search-container">
+                                <input type="text" id="search-bar" placeholder="Search...">
+                                <button type="submit" id="search-button">Search</button>
+        
+                            </div>
+                            <script src="script.js">function filterItems() {
+                                var input, filter, ul, li, a, i, txtValue;
+                                input = document.getElementById('search-bar');
+                                filter = input.value.toUpperCase();
+                                ul = document.getElementById('item-list');
+                                li = ul.getElementsByTagName('li');
+                            
+                                for (i = 0; i < li.length; i++) {
+                                    a = li[i];
+                                    txtValue = a.textContent || a.innerText;
+                                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                        li[i].style.display = '';
+                                    } else {
+                                        li[i].style.display = 'none';
+                                    }
+                                }
+                            }
+                            </script>
 
 
                                         
@@ -122,34 +150,34 @@ https://templatemo.com/tm-590-topic-listing
 
                         <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                             <div class="custom-block bg-white shadow-lg">
-                                <a href="topics-detail.html">
+                                
                                     <div class="d-flex">
                                         <div>
-                                            <h5 class="mb-2">About us</h5>
+                                            <h5 class="mb-2">Our Purpose</h5>
 
-                                            <p class="mb-0">Our company is at the forefront of developing technology that enables safe exploration for the blind. We harness advanced sensors and AI algorithms to provide real-time guidance, obstacle detection, and location information, fostering independence and accessibility for visually impaired individuals.</p>
+                                            <p class="mb-0">The purpose of the website is to serve as a comprehensive and accessible information hub dedicated to raising awareness about various government medical support schemes. </p>
                                         </div>
 
                                         <span class="badge bg-design rounded-pill ms-auto">1</span>
                                     </div>
 
                                    
-                                </a>
+                                
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-12">
                             <div class="custom-block custom-block-overlay">
                                 <div class="d-flex flex-column h-100">
-                                    <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+                                    <!--<img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">-->
 
                                     <div class="custom-block-overlay-text d-flex">
                                         <div>
-                                            <h5 class="text-white mb-2">Third eye</h5>
+                                            <h5 class="text-white mb-2">Our commitment</h5>
 
-                                            <p class="text-white">Third eye allows you to see the world again with your other senses like touch.</p>
+                                            <p class="text-white">The core commitment of the website is to empower individuals and businesses by providing detailed and accurate information on government initiatives related to medical support.</p>
 
-                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Monitor</a>
+                                            
                                         </div>
 
                                         <span class="badge bg-finance rounded-pill ms-auto">2</span>
@@ -201,12 +229,12 @@ https://templatemo.com/tm-590-topic-listing
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="col-lg-13 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">Camera</h5>
+                                                            <h5 class="mb-2">Cancer</h5>
 
                                                             <p class="mb-0">Let's your friend and family see what you see in live time and also helps you avoid obstacle.</p>
                                                         </div>
@@ -219,12 +247,12 @@ https://templatemo.com/tm-590-topic-listing
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="col-lg-13 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">GPS</h5>
+                                                            <h5 class="mb-2">T.B scheme</h5>
 
                                                                 <p class="mb-0">Let's your friends and faimly see your locations in real time.</p>
                                                         </div>
@@ -237,12 +265,63 @@ https://templatemo.com/tm-590-topic-listing
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="col-lg-13 col-md-6 col-12 mb-4 mb-lg-0">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">AI</h5>
+                                                            <h5 class="mb-2">Senior Citizen Scheme</h5>
+
+                                                                <p class="mb-0">Uses AI technology to guild the user to the destination.</p>
+                                                        </div>
+
+                                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
+                                                    </div>
+
+                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-13 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="topics-detail.html">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Senior Citizen Scheme</h5>
+
+                                                                <p class="mb-0">Uses AI technology to guild the user to the destination.</p>
+                                                        </div>
+
+                                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
+                                                    </div>
+
+                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-13 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="topics-detail.html">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Senior Citizen Scheme</h5>
+
+                                                                <p class="mb-0">Uses AI technology to guild the user to the destination.</p>
+                                                        </div>
+
+                                                        <span class="badge bg-design rounded-pill ms-auto">3</span>
+                                                    </div>
+
+                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-13 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="topics-detail.html">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Senior Citizen Scheme</h5>
 
                                                                 <p class="mb-0">Uses AI technology to guild the user to the destination.</p>
                                                         </div>
@@ -380,7 +459,7 @@ https://templatemo.com/tm-590-topic-listing
             </section>
 
 
-            <section class="faq-section section-padding" id="section_4">
+            <section class="faq-section section-padding" id="section_6">
                 <div class="container">
                     <div class="row">
 
@@ -445,7 +524,7 @@ https://templatemo.com/tm-590-topic-listing
             </section>
 
 
-            <section class="contact-section section-padding section-bg" id="section_5">
+            <section class="contact-section section-padding section-bg" id="section_7">
                 <div class="container">
                     <div class="row">
 
@@ -579,4 +658,6 @@ https://templatemo.com/tm-590-topic-listing
         <script src="js/custom.js"></script>
 
     </body>
+    
 </html>
+
